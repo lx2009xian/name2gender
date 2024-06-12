@@ -9,7 +9,7 @@ It is generally challenging to infer the gender of individuals from China, Korea
 By refining our approach to exclude names from countries where gender is less discernible from names alone, our model enhances the precision and applicability of gender prediction.
 
 # Result
-**Table 1. The AUC of *name2CKJV***
+**Table 1. The performance of *name2CKJV***
 | Training times | Accuracy | Precision | Recall | F1 |
 |-----|-----|-----|-----|-----|
 | 1 | 行1 | 行1 | 行1 | 行1 |
@@ -17,14 +17,10 @@ By refining our approach to exclude names from countries where gender is less di
 | 3 | 行3 | 行3 | 行3 | 行3 |
 | 4 | 行4 | 行4 | 行4 | 行4 |
 | 5 | 行5 | 行5 | 行5 | 行5 |
-| 6 | 行6 | 行6 | 行6 | 行6 |
-| 7 | 行7 | 行7 | 行7 | 行7 |
-| 8 | 行8 | 行8 | 行8 | 行8 |
-| 9 | 行9 | 行9 | 行9 | 行9 |
-| 10| 行10| 行10| 行10| 行10|
 
 
-**Table 2. The AUC of *name2gender***
+
+**Table 2. The performance of *name2gender***
 | Training times | Accuracy | Precision | Recall | F1 |
 |-----|-----|-----|-----|-----|
 | 1 | 行1 | 行1 | 行1 | 行1 |
