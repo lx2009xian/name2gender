@@ -10,23 +10,32 @@ By refining our approach to exclude names from countries where gender is less di
 
 # Result
 **Table 1. The AUC of *name2CKJV***
-**| Syntax      | Description | Test Text     | Description | Test Text     |**
-| :---        |    :----:   |          ---: |    :----:   |          ---: |
-| Accuracy      | Title       | Here's this   | Title       | Here's this   |
-| Precision   | Text        | And more      | Text        | And more      |
-| Recall      | Text        | And more      | Text        | And more      |
-| F1   | Text        | And more      | Text        | And more      |
-| Accuracy      | Title       | Here's this   | Text        | And more      |
-| Precision   | Text        | And more      | Text        | And more      |
-| Recall      | Text        | And more      | Text        | And more      |
-| F1   | Text        | And more      | Text        | And more      |
-| Recall      | Text        | And more      | Text        | And more      |
-| F1   | Text        | And more      | Text        | And more      |
+| Column 1 | Column 2 | Column 3 | Column 4 |
+|----------|----------|----------|----------|
+| Row1-1   | Row1-2   | Row1-3   | Row1-4   |
+| Row2-1   | Row2-2   | Row2-3   | Row2-4   |
+| Row3-1   | Row3-2   | Row3-3   | Row3-4   |
+| Row4-1   | Row4-2   | Row4-3   | Row4-4   |
+| Row5-1   | Row5-2   | Row5-3   | Row5-4   |
+| Row6-1   | Row6-2   | Row6-3   | Row6-4   |
+| Row7-1   | Row7-2   | Row7-3   | Row7-4   |
+| Row8-1   | Row8-2   | Row8-3   | Row8-4   |
+| Row9-1   | Row9-2   | Row9-3   | Row9-4   |
+| Row10-1  | Row10-2  | Row10-3  | Row10-4  |
+
 
 **Table 2. The AUC of *name2gender***
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Accuracy      | Title       | Here's this   |
-| Precision   | Text        | And more      |
-| Recall      | Text        | And more      |
+| Column 1 | Column 2 | Column 3 | Column 4 |
+|----------|----------|----------|----------|
+| Row1-1   | Row1-2   | Row1-3   | Row1-4   |
+| Row2-1   | Row2-2   | Row2-3   | Row2-4   |
+| Row3-1   | Row3-2   | Row3-3   | Row3-4   |
+| Row4-1   | Row4-2   | Row4-3   | Row4-4   |
+| Row5-1   | Row5-2   | Row5-3   | Row5-4   |
+| Row6-1   | Row6-2   | Row6-3   | Row6-4   |
+| Row7-1   | Row7-2   | Row7-3   | Row7-4   |
+| Row8-1   | Row8-2   | Row8-3   | Row8-4   |
+| Row9-1   | Row9-2   | Row9-3   | Row9-4   |
+| Row10-1  | Row10-2  | Row10-3  | Row10-4  |
+
 
