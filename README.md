@@ -11,14 +11,14 @@ By refining our approach to exclude names from countries where gender is less di
 # Result
 **Table 1. The AUC of *name2CKJV***
 | Syntax      | Description | Test Text     | Syntax      | Description | Test Text   | Description | Test Text     | Syntax      | Description | Test Text|  
-| :---        |    :----:   |          ---: | :---        |    :----:   |          ---: || :---        |    :----:   |          ---: |          ---: |
+| :---        |    :----:   |          ---: | :---        |    :----:   |          ---: |:---        |    :----:   |          ---: |          ---: |
 
 
 | Accuracy      | Title       | Here's this   |Accuracy      | Title       | Here's this   | Accuracy      | Title       | Here's this   | Here's this   |
 
 
 | Precision   | Text        | And more      | Precision   | Text        | And more      | Precision   | Text        | And more      | And more      |
-| Recall      | Text        | And more      | Recall      | Text        | And more      | Recall      | Text        | And more      | Recall      | Text        | And more      | Recall      | 
+| Recall      | Text        | And more      | Recall      | Text        | And more      | Recall      | Text        | And more      | Recall      | Text        | And more      |
 | F1   | Text        | And more      | Text        | And more      | Text        | And more      | Text        | And more      | Text        | And more     |
 
 
