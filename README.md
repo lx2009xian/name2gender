@@ -10,32 +10,27 @@ By refining our approach to exclude names from countries where gender is less di
 
 # Result
 **Table 1. The AUC of *name2CKJV***
-| Column 1 | Column 2 | Column 3 | Column 4 |
-|----------|----------|----------|----------|
-| Row1-1   | Row1-2   | Row1-3   | Row1-4   |
-| Row2-1   | Row2-2   | Row2-3   | Row2-4   |
-| Row3-1   | Row3-2   | Row3-3   | Row3-4   |
-| Row4-1   | Row4-2   | Row4-3   | Row4-4   |
-| Row5-1   | Row5-2   | Row5-3   | Row5-4   |
-| Row6-1   | Row6-2   | Row6-3   | Row6-4   |
-| Row7-1   | Row7-2   | Row7-3   | Row7-4   |
-| Row8-1   | Row8-2   | Row8-3   | Row8-4   |
-| Row9-1   | Row9-2   | Row9-3   | Row9-4   |
-| Row10-1  | Row10-2  | Row10-3  | Row10-4  |
+| Training times | Accuracy | Precision | Recall | F1 |
+|-----|-----|-----|-----|-----|
+| 1 | 行1 | 行1 | 行1 | 行1 |
+| 2 | 行2 | 行2 | 行2 | 行2 |
+| 3 | 行3 | 行3 | 行3 | 行3 |
+| 4 | 行4 | 行4 | 行4 | 行4 |
+| 5 | 行5 | 行5 | 行5 | 行5 |
+| 6 | 行6 | 行6 | 行6 | 行6 |
+| 7 | 行7 | 行7 | 行7 | 行7 |
+| 8 | 行8 | 行8 | 行8 | 行8 |
+| 9 | 行9 | 行9 | 行9 | 行9 |
+| 10| 行10| 行10| 行10| 行10|
 
 
 **Table 2. The AUC of *name2gender***
-| Column 1 | Column 2 | Column 3 | Column 4 |
-|----------|----------|----------|----------|
-| Row1-1   | Row1-2   | Row1-3   | Row1-4   |
-| Row2-1   | Row2-2   | Row2-3   | Row2-4   |
-| Row3-1   | Row3-2   | Row3-3   | Row3-4   |
-| Row4-1   | Row4-2   | Row4-3   | Row4-4   |
-| Row5-1   | Row5-2   | Row5-3   | Row5-4   |
-| Row6-1   | Row6-2   | Row6-3   | Row6-4   |
-| Row7-1   | Row7-2   | Row7-3   | Row7-4   |
-| Row8-1   | Row8-2   | Row8-3   | Row8-4   |
-| Row9-1   | Row9-2   | Row9-3   | Row9-4   |
-| Row10-1  | Row10-2  | Row10-3  | Row10-4  |
+| Training times | Accuracy | Precision | Recall | F1 |
+|-----|-----|-----|-----|-----|
+| 1 | 行1 | 行1 | 行1 | 行1 |
+| 2 | 行2 | 行2 | 行2 | 行2 |
+| 3 | 行3 | 行3 | 行3 | 行3 |
+
+
 
 
