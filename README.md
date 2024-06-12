@@ -9,4 +9,18 @@ It is generally challenging to infer the gender of individuals from China, Korea
 By refining our approach to exclude names from countries where gender is less discernible from names alone, our model enhances the precision and applicability of gender prediction.
 
 # Result
-Result: In the prediction task of East Asian populations and non-East Asian populations, the accuracy is 0.9930. And the accuracy of another task is 0.9342
+**Table 1. The AUC of *name2CKJV***
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Accuracy      | Title       | Here's this   |
+| Precision   | Text        | And more      |
+| Recall      | Text        | And more      |
+| F1   | Text        | And more      |
+
+**Table 2. The AUC of *name2gender***
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Accuracy      | Title       | Here's this   |
+| Precision   | Text        | And more      |
+| Recall      | Text        | And more      |
+| F1   | Text        | And more      |
