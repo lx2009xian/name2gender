@@ -49,7 +49,7 @@ def load_fullnames(male_file, female_file, andy_file, chunksize=100000):
     data = {'fullname': [], 'label': []}
     total_processed = 0
 
-    # Read female_file fullnames file
+    # Read female_file file
     for chunk in pd.read_csv(female_file, header=None, chunksize=chunksize):
         chunk[0] = chunk[0].apply(unicodeToAscii)
         data['fullname'].extend(chunk[0].tolist())
@@ -57,7 +57,7 @@ def load_fullnames(male_file, female_file, andy_file, chunksize=100000):
         total_processed += len(chunk)
         print(f'Processed {total_processed} records from female_file fullnames')
 
-    # Read male_file fullnames file
+    # Read male_file file
     for chunk in pd.read_csv(male_file, header=None, chunksize=chunksize):
         chunk[0] = chunk[0].apply(unicodeToAscii)
         data['fullname'].extend(chunk[0].tolist())
@@ -66,7 +66,7 @@ def load_fullnames(male_file, female_file, andy_file, chunksize=100000):
         print(f'Processed {total_processed} records from male_file fullnames')
 
 
-    # Read andy_file fullnames file
+    # Read andy_file file
     for chunk in pd.read_csv(andy_file, header=None, chunksize=chunksize):
         chunk[0] = chunk[0].apply(unicodeToAscii)
         data['fullname'].extend(chunk[0].tolist())
