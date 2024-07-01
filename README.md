@@ -1,5 +1,5 @@
 # name2gender
-This a python code for gender prediction based on full name
+This a python code for gender prediction based on full name, which also works for the first name of authors.
 # Introduction
 We utilize a pre-trained BERT model to predict an author's gender based on their full name. While Gender-Guesser is an open Python module that infers gender using a pre-existing author database, it often misidentifies authors not included in that database. Our approach significantly improves the accuracy of gender predictions by addressing these misidentification issues.
 # Data and Methodology
